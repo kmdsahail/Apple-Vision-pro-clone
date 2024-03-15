@@ -1,0 +1,200 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  position: relative;
+  overflow: hidden;
+}
+#page {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+}
+#page > nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 7vh;
+  width: 50vw;
+  background-color: #000000;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#page > img {
+  position: absolute;
+  display: block;
+  height: 104%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#page > nav > h3 {
+  font-weight: 100;
+}
+#page > nav > button {
+  padding: 7px 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+}
+#page-bottom {
+  left: 50%;
+  bottom: 5%;
+  width: 25%;
+  transform: translateX(-50%);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#page1 {
+  position: relative;
+  height: 100vw;
+  width: 100vw;
+  background-color: #fff;
+}
+
+#page1 > video {
+  height: 100vh;
+  width: 88%;
+  object-fit: cover;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 25%;
+}
+#page1 > h1 {
+  font-size: 3vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  top: 15%;
+}
+
+#page3 {
+  position: relative;
+  height: 80vh;
+  width: 100vw;
+  background-color: #fff;
+}
+
+#page3 > video {
+  height: 100vh;
+  width: 88%;
+  object-fit: cover;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+#page3 > h1 {
+  font-size: 3vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  top: -35%;
+  font-weight: 700;
+  width: 80vw;
+}
+
+#page4 {
+  position: relative;
+  height: 100vw;
+  width: 100vw;
+  background-color: #fff;
+}
+
+#page4 > video {
+  height: 100vh;
+  width: 88%;
+  object-fit: cover;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 25%;
+}
+#page4 > h1 {
+  font-size: 3vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  top: 12%;
+  font-weight: 700;
+  width: 80vw;
+}
+
+#page5 {
+  position: relative;
+  height: 60vw;
+  width: 100vw;
+  background-color: #fff;
+}
+
+#page5 > video {
+  height: 100vh;
+  width: 88%;
+  object-fit: cover;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+#page5 > h1 {
+  font-size: 3vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  top: -13%;
+  font-weight: 700;
+  width: 80vw;
+}
+
+#visionsec {
+  height: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#visionsec > h4 > a {
+  color: orange;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 2rem;
+  top: 88%;
+  left: 44%;
+  position: absolute;
+}
+#visionsec > h4 > a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+#visionlogo {
+  position: absolute;
+  top: 86%;
+}
+
+#visionimg {
+}
